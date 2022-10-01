@@ -3,8 +3,7 @@ def sum_arr(a):
     global s
     if len(a)==0:return print(s)
     s+=a[0]
-    a=a[1:]
-    sum_arr(a)
+    sum_arr(a[1:])
 
-a=[7,4,9,11,-3]
+a=[7,4,9,21,-3]
 sum_arr(a)
