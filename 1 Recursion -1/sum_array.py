@@ -5,5 +5,5 @@ def sum_arr(a):
     s+=a[0]
     sum_arr(a[1:])
 
-a=[7,4,9,21,-3]
+a=[7,4,9,11,-3]
 sum_arr(a)
