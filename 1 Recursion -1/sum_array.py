@@ -4,6 +4,7 @@ def sum_arr(a):
     if len(a)==0:return print(s)
     s+=a[0]
     sum_arr(a[1:])
-
-a=[7,4,9,11,-3]
+    
+n=int(input())
+a=[int(n) for n in input().split(' ',n-1)]
 sum_arr(a)
