@@ -3,6 +3,7 @@ def isPresent(a,n):
     if a[0]==n:return True
     return isPresent(a[1:],n)
 
-a=[2,9,10,6,8,9,4,15]
-n=int(input('Type a num to check if its in list:\n'))
-print(isPresent(a,n))
+n=int(input())
+a=[int(n) for n in input().split(' ',n-1)]
+x=int(input('Type a num to check if its in list:\n'))
+print(isPresent(a,x))
