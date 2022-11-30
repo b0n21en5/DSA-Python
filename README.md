@@ -3,19 +3,23 @@ Python supports different styles of writing code. One can write python code in p
 
 
 
-# Object Oriented Programmimng Paradigm:abacus:
+#
+## Object Oriented Programmimng Paradigm:abacus:
 As an object oriented programming language, python supports all the core features of OOP such as inheritance, encapsulation, abstraction, polymorphism etc. The foundation of OOP is class and a class is defined to represent an object which can later be created and manipulated.
 
 
-# Procedural Programming Paradigm:printer:
+#
+## Procedural Programming Paradigm:printer:
 In this way the code is grouped in functions and code is serially executed step by step, so basically it combines the sedrial code to instruct computer with each step to perform certain task.
 
 
-# Functional Programming Paradigm:joystick:
+#
+## Functional Programming Paradigm:joystick:
 In functional way everything is bind in pure mathematical functions style. It uses the mathematical functions and treats every statements as functional expression as an expression is executed to produce a value
 
 
 
+#
 
 
 ## Classification of Data Structure:
